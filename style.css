@@ -1,0 +1,66 @@
+header{
+    text-align: center;
+}
+.header{
+    background: url('IMG_3562.PNG');
+    background-repeat: no-repeat;
+    background-size: contain;
+    text-align: center;
+    width: auto;
+    height: 20rem;
+    width: 43rem;
+    display: inline-block;
+}
+.color{
+    background: rgba(255,255,255,.8);
+    margin-top: 7rem;
+    height: 5rem;
+    text-align: center;
+    width: 16rem;
+    display: inline-block;
+}
+h1{
+    font-family: reggae-one, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+main{
+    text-align: center;
+}
+.table{
+    text-align: center;
+}
+table{
+    margin-left: auto;
+    margin-right: auto;
+    width: 43rem;
+    text-align: center;
+}
+td{
+    border:none;
+    
+}
+tr.ss{
+    background-color:rgb(238, 62, 62);
+}
+.sp{
+    background-color:  rgb(233, 122, 122);
+}
+.s{
+    background-color: rgb(188, 143, 143);
+}
+.ap{
+    background-color: deepskyblue;
+}
+.a{
+    background-color:paleturquoise;
+}
+.am{
+    background-color: lightcyan;
+}
+.b{
+    background-color: lightgreen;
+}
+.c{
+    background-color: navajowhite;
+}
