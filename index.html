@@ -7,7 +7,7 @@
     <P>2021/11/15更新の最強キャラランキング
     </P>
     <link href="rel=stylesheet" href="https://nicolas-cusan.github.io/destyle.css/">
-       
+      <script src="jquery-3.6.0.min.js">         </script>
       <script>
         (function(d) {
           var config = {
@@ -17,11 +17,41 @@
           },
           h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
         })(document);
+
+        /* ポップアップ広告 */
+
+         $(function() {
+        var popup = $('#popup');
+        var flag = true; // （コードは書いていないけど）ローカルストレージにでも保存しておけばいい
+        $(window).scroll(function() {
+            if (flag /* && $(this).scrollTop() > 300 */) {
+                popup.fadeIn();
+            } else {
+                popup.hide();
+            }
+        });
+        $('button').click(function() {
+            flag = false; // （コードは書いていないけど）ローカルストレージにでも保存しておけばいい
+            $('#popup').hide();
+        });
+        });
+
+        
       </script>
     <link rel="stylesheet" href="style.css">
     <script data-ad-client="ca-pub-7699202506197983" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
 </head>
 <body>
+      <div id="popup">
+         <div class="popup-content">
+           <button></button>
+          <a href="https://px.a8.net/svt/ejp?a8mat=3HOVXW+50ED2Q+50+2HH0SH" rel="nofollow">
+            <img border="0" width="300" height="300" alt="" src="https://www27.a8.net/svt/bgt?aid=211113140303&wid=001&eno=01&mid=s00000000018015028000&mc=1"></a>
+            <img border="0" width="1" height="1" src="https://www11.a8.net/0.gif?a8mat=3HOVXW+50ED2Q+50+2HH0SH" alt="">
+            
+        </div>
+      </div> 
+           
     <header>
         <div class="header">
           <div class="color">
@@ -31,6 +61,8 @@
     </header>
     <div class="container">
         <aside>
+          
+          <!-- 既存のやつ -->
           <div>
             <a href="https://px.a8.net/svt/ejp?a8mat=3HOVXW+50ED2Q+50+2HI3DD" rel="nofollow">
               <img border="0" width="125" height="125" alt="" src="https://www27.a8.net/svt/bgt?aid=211113140303&wid=001&eno=01&mid=s00000000018015033000&mc=1"></a>
